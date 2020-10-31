@@ -164,7 +164,8 @@ window.addEventListener('load' ,() => {
             alert(`You ran out of lives, but your score is ${score}!`);
         } else {
             if (score <= 19){
-                alert(`Your score is ${score} keep training`);
+                document.write("Your score is ${score} keep training");
+                //alert(`Your score is ${score} keep training`);
             }else if (score <= 29){
                 alert(`Your score is ${score} Good job`);
             }else if (score <= 39){
